@@ -4,3 +4,5 @@ okta:
     client-id: ${OKTA_CLIENT_ID}
     client-secret: QO_b8c2H72ClJ8mmUaMSAyA-QjywjW0g7q09qrnb
     redirect-uri: /callback
+server:
+  port: ${PORT}
