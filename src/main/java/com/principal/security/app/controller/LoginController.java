@@ -10,10 +10,9 @@ import java.util.List;
 public class LoginController {
 
     @GetMapping("/")
-    public List<String> getDesign(){
-
-        return Arrays.asList("<a href=\"https://docs.google.com/document/d/12JMt8CfmwFm3qIppvYU3amCBomhIVWlK6NRTYNhfBwE/edit?usp=sharing\">" +
-                "Obtenga el diseño</a>\n", "");
+    public String getDesign(){
+        return "<a href=\"https://docs.google.com/document/d/12JMt8CfmwFm3qIppvYU3amCBomhIVWlK6NRTYNhfBwE/edit?usp=sharing\">" +
+                "Obtenga el diseño</a>\n";
     }
 
     @GetMapping("/thanks")
